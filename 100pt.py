@@ -42,9 +42,9 @@ class MyApp:
 		global drawpad
 	
 	def button2Click(self, event):
-	    drawpad.move (oval,100,0)
-	    global oval
-	    global drawpad
+	       drawpad.move (oval,100,0)
+	       global oval
+	       global drawpad
 	
 		
 myapp = MyApp(root)
